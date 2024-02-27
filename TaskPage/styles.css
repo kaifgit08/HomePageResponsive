@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.title {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.nav {
+  background-color: #eee;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+  margin: 0 5px;
+  position: relative;
+}
+
+.nav-item:hover {
+  background-color: #ddd;
+}
+
+.fa {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+}
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.carousel-item {
+  height: 100vh;
+}
+.carousel-caption {
+  bottom: 200px;
+  z-index: 2;
+}
+.carousel-caption h1 {
+  font-size: 80px;
+}
+.carousel-caption h3 {
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+}
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar-light .navbar-brand {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.w-100 {
+  height: 100vh;
+}
+
+/* res css */
+
+@media only screen and(max-width:767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption h1 {
+    font-size: 15px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+  .carousel-caption h1 a {
+    width: 100%;
+    line-height: 1.6;
+  }
+}
+.img-f1 {
+  width: 100%;
+  height: 50vh;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: inline-block;
+}
+
+/* footer form {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+footer input[type="text"] {
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding: 5px;
+  outline: none;
+}
+
+footer input[type="radio"] {
+  margin: 5px 0;
+}
+
+footer label {
+  margin: 5px 0;
+}
+
+footer button[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  padding: 5px 10px;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 0;
+  cursor: pointer;
+} */
